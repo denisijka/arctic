@@ -1707,8 +1707,8 @@ body.popup-show::after {
 
 .contacts__item_map {
   position: relative;
-  width: 600px;
-  height: 450px;
+  width: 560px;
+  height: 306px;
 }
 
 .contacts__item_map iframe {
