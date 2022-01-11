@@ -2814,6 +2814,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     padding-top: 17.6875rem;
   }
 
+  .header .main-header {
+    margin-left: 5.9375rem;
+  }
+
   .footer__wrapper {
     gap: 2.5rem;
   }
@@ -3101,6 +3105,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .logo__menu {
     display: block;
     z-index: 6;
+  }
+
+  .header .main-header {
+    margin-left: 0rem;
   }
 
   .header .main-header__subtitle {
@@ -3493,32 +3501,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-@media (min-width: 23.4375em) and (max-width: 48em) {
-  .header .main-header__title {
-    font-size: calc(2.25rem + 0.875 * (((100vw - 23.4375rem)) / ((24.5625))));
-  }
-}
-
-@media (max-width: 47.99875em) and (min-width: 74.375em) {
-  .menu__body::before {
-    height: 5.125rem;
-  }
-}
-
-@media (max-width: 47.99875em) and (min-width: 20em) and (max-width: 74.375em) {
-  .menu__body::before {
-    height: calc(4.375rem + 0.75 * (((100vw - 20rem)) / ((54.375))));
-  }
-}
-
-@media (max-width: 47.99875em) and (min-width: 20em) and (max-width: 48em) {
-  .icon-menu {
-    -ms-flex-preferred-size: calc(1.875rem + 0.625 * (((100vw - 20rem)) / ((28))));
-        flex-basis: calc(1.875rem + 0.625 * (((100vw - 20rem)) / ((28))));
-  }
-}
-
 @media (min-width: 47.99875em) and (max-width: 74.375em) {
+  .header .main-header {
+    margin-left: calc(0rem + 5.9375 * (((100vw - 47.99875rem)) / ((26.37625))));
+  }
+
   .footer__wrapper {
     gap: calc(1.5625rem + 0.9375 * (((100vw - 47.99875rem)) / ((26.37625))));
   }
@@ -3571,6 +3558,31 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .cruise__title {
     margin-bottom: calc(2.5rem + 1.25 * (((100vw - 47.99875rem)) / ((26.37625))));
+  }
+}
+
+@media (min-width: 23.4375em) and (max-width: 48em) {
+  .header .main-header__title {
+    font-size: calc(2.25rem + 0.875 * (((100vw - 23.4375rem)) / ((24.5625))));
+  }
+}
+
+@media (max-width: 47.99875em) and (min-width: 74.375em) {
+  .menu__body::before {
+    height: 5.125rem;
+  }
+}
+
+@media (max-width: 47.99875em) and (min-width: 20em) and (max-width: 74.375em) {
+  .menu__body::before {
+    height: calc(4.375rem + 0.75 * (((100vw - 20rem)) / ((54.375))));
+  }
+}
+
+@media (max-width: 47.99875em) and (min-width: 20em) and (max-width: 48em) {
+  .icon-menu {
+    -ms-flex-preferred-size: calc(1.875rem + 0.625 * (((100vw - 20rem)) / ((28))));
+        flex-basis: calc(1.875rem + 0.625 * (((100vw - 20rem)) / ((28))));
   }
 }
 
