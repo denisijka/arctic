@@ -5,7 +5,7 @@
 	<title>Главная</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220109234152">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220111091401">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,10 +17,10 @@
 			<div data-scroll="10" data-scroll-show class="header__wrapper">
 				<div class="header__container">
 					<div class="header__top">
-						<div class="header__column">
+						<div class="header__column header__column_logo">
 							<a href="" class="logo">
-								<img src="img/icons/logo.svg?_v=1641764512159" alt="logo">
-								<img data-da=".menu__list,767.98,first" class="logo__menu" src="img/icons/logo-black.svg?_v=1641764512159" alt="logo">
+								<img src="img/icons/logo.svg?_v=1641885241561" alt="logo">
+								<img data-da=".menu__list,767.98,first" class="logo__menu" src="img/icons/logo-black.svg?_v=1641885241561" alt="logo">
 							</a>
 						</div>
 						<div class="header__column">
@@ -29,8 +29,8 @@
 									<ul class="menu__list">
 										<li data-goto="advanced" class="menu__item"><a href="#" class="menu__link">Преимущества </a></li>
 										<li class="menu__item"><a href="#" class="menu__link">Направления</a></li>
-										<li class="menu__item"><a href="#" class="menu__link">Ближайшие круизы</a></li>
-										<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+										<li data-goto="cruise" class="menu__item"><a href="#" class="menu__link">Ближайшие круизы</a></li>
+										<li data-goto="contacts" class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -56,19 +56,19 @@
 							<p class="travel__text text">Это волшебное путешествие поможет вам познакомиться поближе с удивительным миром Антарктики. Наш круизный лайнер отвезет вас на край Земли, где вы сможете увидеть: ледяные айсберги, несколько видов пингвинов, китов, морских котиков и многое другое.</p>
 						</div>
 						<div class="travel__image-ibg">
-							<picture><source srcset="img/mainpage/penguin.webp" type="image/webp"><img src="img/mainpage/penguin.jpg?_v=1641764512159" alt="penguin"></picture>
+							<picture><source srcset="img/mainpage/penguin.webp" type="image/webp"><img src="img/mainpage/penguin.jpg?_v=1641885241561" alt="penguin"></picture>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="advanced">
+			<section id="advanced" class="advanced">
 				<div class="advanced__container">
 					<h2 class="advanced__title title">Преимущества</h2>
 					<div class="advanced__items">
 						<div class="advanced__item">
 							<div class="advanced__card">
 								<div class="advanced__icon">
-									<img src="img/icons/ship.svg?_v=1641764512159" alt="ship">
+									<img src="img/icons/ship.svg?_v=1641885241561" alt="ship">
 								</div>
 								<div class="advanced__descr descr">Небольшой круизный лайнер</div>
 								<p class="advanced__text">Круизный лайнер, рассчитанный всего лишь на 300 гостей, поможет избежать шума и очередей и даст возможность насладиться видами и природой.</p>
@@ -77,7 +77,7 @@
 						<div class="advanced__item">
 							<div class="advanced__card">
 								<div class="advanced__icon">
-									<img src="img/icons/tick.svg?_v=1641764512159" alt="tick">
+									<img src="img/icons/tick.svg?_v=1641885241561" alt="tick">
 								</div>
 								<div class="advanced__descr descr">Система все включено</div>
 								<p class="advanced__text">Все наши круизы работают по системе “Все Включено”. Великолепные блюда и безлимитный бар доступны для вас 24 часа.</p>
@@ -86,7 +86,7 @@
 						<div class="advanced__item">
 							<div class="advanced__card">
 								<div class="advanced__icon">
-									<img src="img/icons/boat.svg?_v=1641764512159" alt="boat">
+									<img src="img/icons/boat.svg?_v=1641885241561" alt="boat">
 								</div>
 								<div class="advanced__descr descr">Экскурсионные туры на Zodiac</div>
 								<p class="advanced__text">Экскурсионные туры к берегам Антарктиды совершаются на оборудованных лодках типа Zodiac в сопровождении опытных экскурсоводов.</p>
@@ -95,13 +95,13 @@
 					</div>
 				</div>
 			</section>
-			<section class="cruise">
+			<section id="cruise" class="cruise">
 				<div class="cruise__container">
 					<h2 class="cruise__title title">Ближайшие круизы</h2>
 					<div class="cruise__items">
 						<div class="cruise__item">
 							<div class="cruise__image">
-								<picture><source srcset="img/mainpage/cruise/01.webp" type="image/webp"><img src="img/mainpage/cruise/01.jpg?_v=1641764512159" alt="foto"></picture>
+								<picture><source srcset="img/mainpage/cruise/01.webp" type="image/webp"><img src="img/mainpage/cruise/01.jpg?_v=1641885241561" alt="foto"></picture>
 								<span>Круиз “Астория”</span>
 							</div>
 							<div class="cruise__card card-cruise">
@@ -129,7 +129,7 @@
 						</div>
 						<div class="cruise__item">
 							<div class="cruise__image">
-								<picture><source srcset="img/mainpage/cruise/07.webp" type="image/webp"><img src="img/mainpage/cruise/07.jpg?_v=1641764512159" alt="foto"></picture>
+								<picture><source srcset="img/mainpage/cruise/07.webp" type="image/webp"><img src="img/mainpage/cruise/07.jpg?_v=1641885241561" alt="foto"></picture>
 								<span>Круиз “Элайн”</span>
 							</div>
 							<div class="cruise__card card-cruise">
@@ -157,7 +157,7 @@
 						</div>
 						<div class="cruise__item">
 							<div class="cruise__image">
-								<picture><source srcset="img/mainpage/cruise/02.webp" type="image/webp"><img src="img/mainpage/cruise/02.jpg?_v=1641764512159" alt="foto"></picture>
+								<picture><source srcset="img/mainpage/cruise/02.webp" type="image/webp"><img src="img/mainpage/cruise/02.jpg?_v=1641885241561" alt="foto"></picture>
 								<span>Круиз "Атлантис"</span>
 							</div>
 							<div class="cruise__card card-cruise">
@@ -185,7 +185,7 @@
 						</div>
 						<div class="cruise__item">
 							<div class="cruise__image">
-								<picture><source srcset="img/mainpage/cruise/03.webp" type="image/webp"><img src="img/mainpage/cruise/03.jpg?_v=1641764512159" alt="foto"></picture>
+								<picture><source srcset="img/mainpage/cruise/03.webp" type="image/webp"><img src="img/mainpage/cruise/03.jpg?_v=1641885241561" alt="foto"></picture>
 								<span>Круиз "Одиссей"</span>
 							</div>
 							<div class="cruise__card card-cruise">
@@ -213,7 +213,7 @@
 						</div>
 						<div class="cruise__item">
 							<div class="cruise__image">
-								<picture><source srcset="img/mainpage/cruise/04.webp" type="image/webp"><img src="img/mainpage/cruise/04.jpg?_v=1641764512159" alt="foto"></picture>
+								<picture><source srcset="img/mainpage/cruise/04.webp" type="image/webp"><img src="img/mainpage/cruise/04.jpg?_v=1641885241561" alt="foto"></picture>
 								<span>Круиз "Олимпия"</span>
 							</div>
 							<div class="cruise__card card-cruise">
@@ -241,7 +241,7 @@
 						</div>
 						<div class="cruise__item">
 							<div class="cruise__image">
-								<picture><source srcset="img/mainpage/cruise/05.webp" type="image/webp"><img src="img/mainpage/cruise/05.jpg?_v=1641764512159" alt="foto"></picture>
+								<picture><source srcset="img/mainpage/cruise/05.webp" type="image/webp"><img src="img/mainpage/cruise/05.jpg?_v=1641885241561" alt="foto"></picture>
 								<span>Круиз "Аврора"</span>
 							</div>
 							<div class="cruise__card card-cruise">
@@ -269,7 +269,7 @@
 						</div>
 						<div class="cruise__item">
 							<div class="cruise__image">
-								<picture><source srcset="img/mainpage/cruise/07.webp" type="image/webp"><img src="img/mainpage/cruise/07.jpg?_v=1641764512159" alt="foto"></picture>
+								<picture><source srcset="img/mainpage/cruise/07.webp" type="image/webp"><img src="img/mainpage/cruise/07.jpg?_v=1641885241561" alt="foto"></picture>
 								<span>Круиз "Минион - 1"</span>
 							</div>
 							<div class="cruise__card card-cruise">
@@ -297,7 +297,7 @@
 						</div>
 						<div class="cruise__item">
 							<div class="cruise__image">
-								<picture><source srcset="img/mainpage/cruise/06.webp" type="image/webp"><img src="img/mainpage/cruise/06.jpg?_v=1641764512159" alt="foto"></picture>
+								<picture><source srcset="img/mainpage/cruise/06.webp" type="image/webp"><img src="img/mainpage/cruise/06.jpg?_v=1641885241561" alt="foto"></picture>
 								<span>Круиз "Леонор"</span>
 							</div>
 							<div class="cruise__card card-cruise">
@@ -349,13 +349,11 @@
 					</div>
 				</div>
 			</section>
-			<section class="contacts">
+			<section id="contacts" class="contacts">
 				<div class="contacts__container">
 					<div class="contacts__wrapper">
-						<div class="contacts__item">
-							<div class="contacts__image-ibg">
-								<picture><source srcset="img/mainpage/contacts/map.webp" type="image/webp"><img src="img/mainpage/contacts/map.jpg?_v=1641764512159" alt="map"></picture>
-							</div>
+						<div class="contacts__item contacts__item_map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003151!2d30.32085871618319!3d59.9387191690541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sua!4v1641882868060!5m2!1sru!2sua" loading="lazy"></iframe>
 						</div>
 						<div class="contacts__item">
 							<h2 class="contacts__descr descr">У вас ещё остались вопросы или сомнения? Приезжайте к нам в офис и мы вам все расскажем.</h2>
@@ -379,15 +377,16 @@
 				<div class="footer__wrapper">
 					<div class="footer__column footer__column_logo">
 						<a href="" class="logo">
-							<img src="img/icons/logo.svg?_v=1641764512159" alt="logo">
+							<img src="img/icons/logo.svg?_v=1641885241561" alt="logo">
 						</a>
 					</div>
 					<div class="footer__column footer__column_menu">
 						<ul class="footer__list">
-							<li class="footer__item"><a href="#" class="menu__link">Преимущества </a></li>
+							<li data-goto="advanced" class="footer__item"><a href="#" class="menu__link">Преимущества </a></li>
 							<li class="footer__item"><a href="#" class="menu__link">Направления</a></li>
-							<li class="footer__item"><a href="#" class="menu__link">Ближайшие круизы</a></li>
-							<li class="footer__item"><a href="#" class="menu__link">Контакты</a></li>
+							<li data-goto="cruise" class="footer__item"><a href="#" class="menu__link">Ближайшие круизы</a></li>
+							<li data-goto="contacts" class="footer__item"><a href="#" class="menu__link">Контакты</a></li>
+
 						</ul>
 					</div>
 					<div class="footer__column footer__column_social">
@@ -411,7 +410,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220109234152"></script>
+	<script src="js/app.min.js?_v=20220111091401"></script>
 </body>
 
 </html>
